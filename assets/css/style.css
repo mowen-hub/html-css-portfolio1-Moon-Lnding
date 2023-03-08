@@ -8,3 +8,35 @@ body {
     background-color:aliceblue;
     width:100%;
 }
+
+/*heading and logo */
+
+h1, h2 {
+    font-family:Tilt Neon, sans-serif;
+    letter-spacing:3px;
+    color:black;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:3px;
+    color:black;
+    font-size: 30px;
+    text-decoration:underline;
+    text-align:center;
+}
+
+h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:3px;
+    color:black;
+    font-size: 15px;
+    text-decoration:underline;
+    text-align:center;
+}
+
+#logo {
+    float:left;
+    font-size:190%;   
+}
