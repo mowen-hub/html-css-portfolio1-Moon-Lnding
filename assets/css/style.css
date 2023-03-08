@@ -16,6 +16,7 @@ h1, h2 {
     letter-spacing:3px;
     color:black;
     text-decoration: underline;
+    text-align: center;
 }
 
 h3 {
@@ -40,3 +41,65 @@ h4 {
     float:left;
     font-size:190%;   
 }
+
+/* navigation links */
+
+#menu {
+    font-size:150%;
+    letter-spacing:2px;
+}
+
+#menu, #logo {
+    line-height: 65px;
+}
+
+#menu li {
+    float:right;
+    list-style-type:style type none;
+    margin-right:30px;
+}
+
+#menu a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#menu a:hover {
+    border-bottom: 5px solid #ffd700;
+}
+
+.active {
+    border-bottom: 3px solid #ffd700
+}
+
+/* images */
+
+#hero-outer{
+    height:400px;
+    width:100%;
+    overflow:hidden;
+}
+
+#hero-image{
+    height:500px;
+    width:100%;
+    background-image:url('../images/pexels-photo-15334824.jpeg') ;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+/* text content */
+
+.text {
+    padding:10px;
+    height:100%;
+    width:80%;
+    background-color:darkgrey;
+    text-align: center; 
+    margin: 10px auto 10px auto;
+    text-align: left;
+    font-size: 20px;   
+}
+
+
