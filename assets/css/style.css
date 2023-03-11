@@ -14,7 +14,7 @@ body {
 h1 {
     font-family:Tilt Neon, sans-serif;
     letter-spacing:3px;
-    color:black;
+    color:#ffd700;
     font-weight:600;
     text-decoration:underline;
     text-align:center;
@@ -43,7 +43,8 @@ h3 {
     border:5px solid #ffd700;
     border-width:10px;
     font-size:190%;
-    margin-bottom:auto;   
+    margin-bottom:auto;
+    width:auto;   
 }
 
 /* navigation links */
@@ -104,8 +105,8 @@ h3 {
     width:40%;
     background-color:aliceblue; 
     margin:10px auto 10px auto;
-    text-align:left;
-    font-size:20px;
+    text-align:center;
+    font-size:25px;
     border:5px solid #8a2be2;
 }
 
@@ -115,8 +116,8 @@ div ul  {
     width:40%;
     background-color:aliceblue;
     margin:10px auto 10px auto;
-    text-align:left;
-    font-size:20px;
+    text-align:center;
+    font-size:25px;
     border:5px solid #8a2be2;
     list-style-position: inside;
 }
@@ -124,11 +125,11 @@ div ul  {
 div1 ul  {
     padding:10px;
     height:300px;
-    width:60%;
+    width:50%;
     background-color:aliceblue;
     margin:10px auto 10px auto;
-    text-align:left;
-    font-size:20px;
+    text-align:center;
+    font-size:25px;
     border:5px solid #8a2be2;
     list-style-position:inside;
     overflow-y:scroll;
