@@ -15,35 +15,35 @@ h1 {
     font-family:Tilt Neon, sans-serif;
     letter-spacing:3px;
     color:black;
-    font-weight: 600;
-    text-decoration: underline;
-    text-align: center;
-    background-color: lightslategray;
+    font-weight:600;
+    text-decoration:underline;
+    text-align:center;
+    background-color:lightslategray;
 }
 
 h2 {
     font-family:Tilt Neon, sans-serif;
     letter-spacing:3px;
     color:black;
-    text-decoration: underline;
-    text-align: center;
-    float: center;
+    text-decoration:underline;
+    text-align:center;
+    float:center;
 }
 
 h3 {
     font-family:Tilt Neon, sans-serif;
     letter-spacing:3px;
     color:black;
-    text-decoration: underline;
-    text-align: center;
-    float: center;
+    text-decoration:underline;
+    text-align:center;
+    float:center;
 }
 
 #logo {
-    border: 5px solid #ffd700;
-    border-width: 10px;
+    border:5px solid #ffd700;
+    border-width:10px;
     font-size:190%;
-    margin-bottom: auto;   
+    margin-bottom:auto;   
 }
 
 /* navigation links */
@@ -51,11 +51,11 @@ h3 {
 #menu {
     font-size:150%;
     letter-spacing:2px;
-    color: black;
+    color:black;
 }
 
 #menu, #logo {
-    line-height: 65px;
+    line-height:65px;
 }
 
 #menu li {
@@ -70,11 +70,11 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 5px solid #ffd700;
+    border-bottom:5px solid #ffd700;
 }
 
 .active {
-    border-bottom: 3px solid #ffd700
+    border-bottom:3px solid #ffd700
 }
 
 /* images */
@@ -103,10 +103,10 @@ h3 {
     height:60%;
     width:40%;
     background-color:aliceblue; 
-    margin: 10px auto 10px auto;
-    text-align: left;
-    font-size: 20px;
-    border: 5px solid #8a2be2;
+    margin:10px auto 10px auto;
+    text-align:left;
+    font-size:20px;
+    border:5px solid #8a2be2;
 }
 
 div ul  {
@@ -114,10 +114,10 @@ div ul  {
     height:60%;
     width:40%;
     background-color:aliceblue;
-    margin: 10px auto 10px auto;
-    text-align: left;
-    font-size: 20px;
-    border: 5px solid #8a2be2;
+    margin:10px auto 10px auto;
+    text-align:left;
+    font-size:20px;
+    border:5px solid #8a2be2;
     list-style-position: inside;
 }
 
@@ -126,15 +126,16 @@ div1 ul  {
     height:300px;
     width:60%;
     background-color:aliceblue;
-    margin: 10px auto 10px auto;
-    text-align: left;
-    font-size: 20px;
-    border: 5px solid #8a2be2;
-    list-style-position: inside;
-    overflow-y: scroll;
+    margin:10px auto 10px auto;
+    text-align:left;
+    font-size:20px;
+    border:5px solid #8a2be2;
+    list-style-position:inside;
+    overflow-y:scroll;
 }
 
 .list{
     list-style-type: square;
     margin-left: 15px;
  }
+
