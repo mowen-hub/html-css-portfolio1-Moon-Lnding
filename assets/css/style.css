@@ -14,7 +14,7 @@ body {
 h1 {
     font-family:Tilt Neon, sans-serif;
     letter-spacing:3px;
-    color:#ffd700;
+    color:black;
     font-weight:600;
     text-decoration:underline;
     text-align:center;
@@ -43,8 +43,7 @@ h3 {
     border:5px solid #ffd700;
     border-width:10px;
     font-size:190%;
-    margin-bottom:auto;
-    width:auto;   
+    margin-bottom:auto;   
 }
 
 /* navigation links */
@@ -95,6 +94,20 @@ h3 {
     object-fit:cover;
 }
 
+img.align-right{
+    float:right;
+    height:400px;
+    width:400px;
+    border:5px #ffd700 solid;
+}
+
+img.align-left{
+    float:left;
+    margin-left:10px;
+    height:400px;
+    width:300px;
+    border:5px #ffd700 solid;
+}
 
 
 /* text content */
@@ -106,7 +119,7 @@ h3 {
     background-color:aliceblue; 
     margin:10px auto 10px auto;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
     border:5px solid #8a2be2;
 }
 
@@ -117,23 +130,24 @@ div ul  {
     background-color:aliceblue;
     margin:10px auto 10px auto;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
     border:5px solid #8a2be2;
     list-style-position: inside;
 }
 
 div1 ul  {
-    padding:10px;
-    height:300px;
-    width:50%;
+    padding:5px;
+    height:400px;
+    width:60%;
     background-color:aliceblue;
-    margin:10px auto 10px auto;
+    margin:20px auto 20px auto;
     text-align:center;
-    font-size:25px;
-    border:5px solid #8a2be2;
+    font-size:20px;
+    border:7px solid #8a2be2;
     list-style-position:inside;
     overflow-y:scroll;
 }
+
 
 .list{
     list-style-type: square;
