@@ -79,13 +79,15 @@ h3 {
 
 /* images */
 
-#hero-outer{
+/* main pages */
+
+#hero-outer {
     height:600px;
     width:100%;
     overflow:hidden;
 }
 
-#hero-image{
+#hero-image {
     height:500px;
     width:100%;
     background-image:url('../images/img_moon.jpeg') ;
@@ -94,19 +96,39 @@ h3 {
     object-fit:cover;
 }
 
-img.align-right{
+img.align-right {
     float:right;
     height:400px;
     width:400px;
     border:5px #ffd700 solid;
 }
 
-img.align-left{
+img.align-left {
     float:left;
     margin-left:10px;
     height:400px;
     width:400px;
     border:5px #ffd700 solid;
+}
+
+/* galley images */
+
+#gallery {
+    clear:both;
+    line-height:0;
+    column-count:3;
+    column-gap:0;
+    height:1200px;
+    width:1200px;
+    margin:200px 200px 200px 200px;
+    border: 5px solid #ffd700;
+    position:absolute;
+    
+    
+}
+
+#gallery > img {
+    width:100%;
 }
 
 
