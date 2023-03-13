@@ -118,19 +118,18 @@ img.align-left {
     line-height:0;
     column-count:3;
     column-gap:0;
-    height:1200px;
-    width:1200px;
-    margin:200px 200px 200px 200px;
-    border: 5px solid #ffd700;
-    position:absolute;
-    
-    
 }
 
 #gallery > img {
     width:100%;
 }
 
+
+.zoom:hover{
+    -ms-transform:scale(1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
 
 /* text content */
 
